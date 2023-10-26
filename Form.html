@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+
+    <h1>Registration Form</h1>
+
+    <form action=" ">
+
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="contact_number">Contact Number:</label>
+        <input type="tel" id="contact_number" name="contact_number"><br><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+
+        <label for="dob">Date Of Birth:</label>
+        <input type="date" id="dob" name="dob"><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+
+        <label>Employment Status:</label>
+        <br><br>
+        <input type="radio" id="student" name="employment_status" value="student">
+        <label for="student">Student</label><br>
+
+        <input type="radio" id="worker" name="employment_status" value="worker">
+        <label for="worker">Worker/Employee</label><br>
+
+        <input type="radio" id="self_employed" name="employment_status" value="self_employed">
+        <label for="self_employed">Self-employed</label><br>
+
+        <input type="radio" id="unemployed" name="employment_status" value="unemployed">
+        <label for="unemployed">Unemployed</label><br>
+
+        <input type="radio" id="retired" name="employment_status" value="retired">
+        <label for="retired">Retired</label><br>
+
+        <input type="radio" id="other_status" name="employment_status" value="other">
+        <label for="other_status">Other</label><br><br>
+
+
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" required><br><br>
+
+        <input type="checkbox" id="terms_conditions" name="terms_conditions" required>
+        <label for="terms_conditions">I agree to all the terms and conditions</label><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>
